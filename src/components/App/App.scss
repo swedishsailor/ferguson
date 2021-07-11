@@ -2,12 +2,25 @@
 
 .title {
     margin: 2%;
+    margin-top: 50px;
     text-align: center;
-    font-size: 36px;
+    font-size: 60px;
+
 }
 
 
 main {
-    align-content: center;
+
     display: flex;
+    text-align: center;
+}
+
+.photo {
+   
+    width: 30%;
+    opacity: 0.5;
+    object-fit: cover;
+    object-position: 0px 170px;
+    position: relative;
+    margin-top:-305px;
 }

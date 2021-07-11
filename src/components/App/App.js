@@ -17,9 +17,10 @@ class App extends React.Component{
         return(
             
                 <main>
+
                     <h1 className={styles.title}> Ferguson quotes </h1>
+                    <img className={styles.photo} src="https://i.postimg.cc/W38q2n6G/przemek.jpg"></img>
                     <AddQuote action={value => this.addQuote(value)}/>
-                    {/*<List/>*/}
                     {this.state.lists.map(({key, ...listProps}) => (
                         <List key={key} quote={this.state.quote} {...listProps}/>
                     ))}
