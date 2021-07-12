@@ -24,3 +24,19 @@ main {
     position: relative;
     margin-top:-305px;
 }
+
+@media screen and (max-width: 400px) {
+
+    .photo {
+        width: 95%;
+        opacity: 0.5;
+        object-fit: cover;
+        object-position: 0px 0px;
+        position: relative;
+        margin-top:-205px;
+    }
+
+    .title {
+        margin-left:10px;
+    }
+}
