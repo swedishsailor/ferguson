@@ -23,10 +23,20 @@
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
 
     .button{
-        margin-left: 5%;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .button{
+        margin: 20px 0 0 42%;
+        display: flex;
+        flex-direction: row;
     }
 
 }

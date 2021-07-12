@@ -25,15 +25,46 @@ main {
     margin-top:-305px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
 
     .photo {
         width: 95%;
         opacity: 0.5;
         object-fit: cover;
-        object-position: 0px 0px;
+        object-position: 0px 25px;
         position: relative;
         margin-top:-205px;
+    }
+
+    .title {
+        margin-left:10px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 1150px) {
+
+    .photo {
+        width: 95%;
+        opacity: 0.5;
+        object-fit: cover;
+        object-position: 0px 115px;
+        position: relative;
+        margin-top:-205px;
+    }
+
+    .title {
+        margin-left:10px;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1550px) {
+    .photo {
+        width: 95%;
+        opacity: 0.5;
+        object-fit: cover;
+        object-position: 0px 515px;
+        position: relative;
+        margin-top:-905px;
     }
 
     .title {
